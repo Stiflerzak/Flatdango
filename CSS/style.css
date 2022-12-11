@@ -7,3 +7,9 @@ background-size: 1920px 1080px;
 .img{
     text-align: center;
 }
+p{
+   font-weight: bold; 
+   text-transform: capitalize;
+   margin: 1em;
+   font-size: 1.2rem;
+}

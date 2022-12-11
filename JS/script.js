@@ -9,8 +9,11 @@ document.addEventListener("DOMContentLoaded", () => {
                 }
                 getFilms();
     }) 
-              
-    
+       
+    const btn1= document.querySelector('#bookTicket');
+    btn1.addEventListener('click',() =>{
+        console.log('Someone Clicked me');
+    })
     
     
     
