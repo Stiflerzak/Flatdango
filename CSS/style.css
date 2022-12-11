@@ -1,0 +1,9 @@
+#body{
+background-color: rgb(198, 104, 104);
+background-repeat: no-repeat, repeat;
+background-size: 1920px 1080px;
+}
+
+.img{
+    text-align: center;
+}
