@@ -35,6 +35,10 @@ document.addEventListener("DOMContentLoaded", () => {
     function singlefilm(film){
         document.getElementById("movieTitle").innerHTML=film.title
         document.getElementById("poster").src = film.poster
+        document.getElementById("description").innerHTML = film.description
+        document.getElementById("runtime").innerHTML = film.runtime
+        document.getElementById("showtime").innerHTML = film.showtime
+        
         
     
         
