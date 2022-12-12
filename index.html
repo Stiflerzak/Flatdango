@@ -12,16 +12,7 @@
 <body class="bg-dark" id="body">
     <nav class="navbar bg-warning">
 <div class="container-fluid">
-    <a class="nav-brand text-bg-info nav-link me-2">FLATDANGO MOVIE TICKETING SYSTEM</a>
-<ul class="navbar-nav me-auto d-flex flex-row">
-<li class="nav-item">
-    <a class="text-light nav-link me-2" href="#"> CATEGORIES</a>
-</li>
-<li class="nav-item">
-    <a class="text-light nav-link" href="#"> COUNTRIES</a>
-</li>
-</ul>
-
+    <a class="nav-brand badge bg-primary text-wrap nav-link me-2">FLATDANGO MOVIE TICKETING SYSTEM</a>
 <form action="" class="d-flex">
     <input type="text" class="form-control" type="text" placeholder="Search for a movie" id="search">
     <button type="submit" class="btn btn-outline-info ms-1" id="searchBtn">SEARCH</button>
@@ -35,16 +26,18 @@
         <div class="card mb-3" style="max-width: 600px;">
             <div class="row g-0">
                              
-                    <h1 id="movieTitle" class="text-success">FLATDANGO MOVIE TITLE</h1>
+                    <h1 id="movieTitle" class="badge bg-primary text-wrap">FLATDANGO MOVIE TITLE</h1>
                     <img id="poster" src="./images/default movie .jpg"  width="400" height="400" alt="movie-image">               
                
               </div>
+
+              <div class="col-6">
               <div class="col-md-8 flex-column m-auto" >
                 <div class="card-body" style="width: 18rem">
-                  <p class="card-text" id="description" place>Description</p>
-                  <p id="showtime">Showtime</p>
-         <p id="availableTickets">Available Tickets</p> 
-                  <p class="card-text"><small class="text-muted" id="runtime">Runtime </small></p>
+                  <p class="card-text badge bg-primary text-wrap" id="description" place>Description</p>
+                  <p class="card-text badge bg-primary text-wrap" id="showtime">Showtime</p>
+                  <p class="card-text badge bg-primary text-wrap"id="availableTickets">Available Tickets</p> 
+                  <p class="card-text badge bg-primary text-wrap"class="text-muted" id="runtime">Runtime</p>
                   <div class="d-grid gap-2 col-6 mx-auto">
                     <button class="btn btn-outline-warning" id="bookTicket">Book Ticket</button>
                 </div>
@@ -52,6 +45,7 @@
               </div>
             </div>
           </div>
+        </div>
 
     <div class="d-grid gap-2 col-6 mx-auto">
         <button class="btn btn-outline-warning" id="bookTicket">Book Ticket</button>
