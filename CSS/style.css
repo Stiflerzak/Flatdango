@@ -13,3 +13,8 @@ p{
    margin: 1em;
    font-size: 1.2rem;
 }
+h1{
+    font-weight: bold;
+    font-style: italic;
+    background-color: beige;
+}

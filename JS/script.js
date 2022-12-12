@@ -38,11 +38,11 @@ document.addEventListener("DOMContentLoaded", () => {
         document.getElementById("description").innerHTML = film.description
         document.getElementById("runtime").innerHTML = film.runtime
         document.getElementById("showtime").innerHTML = film.showtime
-        
-        
+        document.getElementById("availableTickets").innerHTML = (film.capacity)-(film.tickets_sold)
     
         
     } 
+    
     
 
 

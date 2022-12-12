@@ -32,13 +32,27 @@
     <div >        
             <!-- h1 contains the movies -->   
     <div id="main" class="card-img  mt-5 btn link-secondary" > 
-        <h1 id="movieTitle" class="text-success">FLATDANGO MOVIE TITLE</h1>
-         <img id="poster" src="./images/default movie .jpg"  width="400" height="400" alt="movie-image">
-         <p id="description">Description</p>
-         <p id="runtime">Runtime</p>
-         <p id="showtime">Showtime</p>
+        <div class="card mb-3" style="max-width: 600px;">
+            <div class="row g-0">
+                             
+                    <h1 id="movieTitle" class="text-success">FLATDANGO MOVIE TITLE</h1>
+                    <img id="poster" src="./images/default movie .jpg"  width="400" height="400" alt="movie-image">               
+               
+              </div>
+              <div class="col-md-8 flex-column m-auto" >
+                <div class="card-body" style="width: 18rem">
+                  <p class="card-text" id="description" place>Description</p>
+                  <p id="showtime">Showtime</p>
          <p id="availableTickets">Available Tickets</p> 
-            </div>   
+                  <p class="card-text"><small class="text-muted" id="runtime">Runtime </small></p>
+                  <div class="d-grid gap-2 col-6 mx-auto">
+                    <button class="btn btn-outline-warning" id="bookTicket">Book Ticket</button>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
     <div class="d-grid gap-2 col-6 mx-auto">
         <button class="btn btn-outline-warning" id="bookTicket">Book Ticket</button>
     </div>
