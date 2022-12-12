@@ -19,19 +19,19 @@ document.addEventListener("DOMContentLoaded", () => {
                     })
                 }
     
-    //this function displays Flatacuties animals
+    //this function displays Flatdango films
                 function displayfilms(film){
                     const name= document.createElement('p')
                     name.innerHTML=film.title
                     const main= document.getElementById("main")
                     main.append(name)
-                    //Event listener listens for a click, it the calls SingleCat function
+                    //Event listener listens for a click, it the calls Singlefilm function
                     name.addEventListener("click", () => {
                         singlefilm(film) 
                         
                     })
                 }
-            // This function handles all Flatacuties animal characteristics like Displaing the name, img and votes for each.
+            // This function handles all Flatdango films and displaing the title, img ,description,sold-out ticket,.
     function singlefilm(film){
         document.getElementById("movieTitle").innerHTML=film.title
         document.getElementById("poster").src = film.poster
