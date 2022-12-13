@@ -46,6 +46,8 @@ document.addEventListener("DOMContentLoaded", () => {
         if (leftTicket<=0) {
             let btndiv= document.querySelector('.soldout')
             btndiv.innerHTML= "<button>Sold Out</button>"
+        }else{
+           const tickets_sold= leftTicket - 1
         }
     })
     } 
