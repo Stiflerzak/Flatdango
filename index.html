@@ -30,7 +30,7 @@
                
               </div>
             <!-- divs that dynamically changes description, showtime, availabletickets,runtime when a user clicks move name -->
-              <div class="main col-6">
+              <div class="main container text-center">
               <div class="main1 col-md-8 flex-column m-auto" >
                 <div class="card-body" style="width: 18rem">
                   <p class="card-text badge bg-primary text-wrap" id="description" place>Description</p>
@@ -38,7 +38,10 @@
                   <p class="card-text badge bg-primary text-wrap"id="availableTickets">Available Tickets</p> 
                   <p class="card-text badge bg-primary text-wrap"class="text-muted" id="runtime">Runtime</p>
                   <div class="d-grid gap-2 col-6 mx-auto">
-                   <button class=" main2 btn btn-outline-warning" id="bookTicket">Book Ticket</button>
+                    <div class="soldout">
+                        <button class="main2 btn btn-outline-warning" id="bookTicket">Book Ticket</button>
+                    </div>
+                   
                 </div>
                 </div>
               </div>

@@ -38,12 +38,18 @@ document.addEventListener("DOMContentLoaded", () => {
         document.getElementById("description").innerHTML = film.description
         document.getElementById("runtime").innerHTML = film.runtime
         document.getElementById("showtime").innerHTML = film.showtime
-        document.getElementById("availableTickets").innerHTML = (film.capacity)-(film.tickets_sold)
-    
-        
+       const leftTicket= document.getElementById("availableTickets").innerHTML = (film.capacity)-(film.tickets_sold)
+    console.log(leftTicket);
+
+    const btn= document.querySelector('.main2')
+    btn.addEventListener('click', ()=>{
+        if (leftTicket<=0) {
+            let btndiv= document.querySelector('.soldout')
+            btndiv.innerHTML= "<button>Sold Out</button>"
+        }
+    })
     } 
-const button= document.querySelector('main.main1.main2')
-console.log(button);
+
 
 
     
