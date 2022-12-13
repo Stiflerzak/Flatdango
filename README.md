@@ -32,8 +32,12 @@ To use this repo on your local machine requires some simple steps
         git@github.com:Stiflerzak/Flatdango
 - This repository is public, hence, can be cloned to local machine
 - Spin the server using Live server extention already installed.
-- Spin the Json server using this command *json-server --watch db.json*
-- Visit your browser(Chrome recommended) *http://127.0.0.1:5500/index.html*
+- Spin the Json server using this command:
+
+      *json-server --watch db.json*
+- Visit your browser(Chrome recommended):
+
+         *http://127.0.0.1:5500/index.html*
 
 
 
