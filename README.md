@@ -17,7 +17,7 @@ or use this command =>
  *json-server --watch db.json* to spin the server
 
  <h2><u>This project is hosted hence can be accessed using the link below:</u></h2>
-  - <a>git@github.com:Stiflerzak/Flatdango</a>
+  - <a>https://stiflerzak.github.io/Flatdango/</a>
 
 
 ## Installation and setup

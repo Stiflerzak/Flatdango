@@ -42,7 +42,10 @@ document.addEventListener("DOMContentLoaded", () => {
     
         
     } 
-    
+const button= document.querySelector('main.main1.main2')
+console.log(button);
+
+
     
 
 

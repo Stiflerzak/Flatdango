@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MOVIE MINI-PROJECT</title>
+    <!-- linked bootstrap and style css -->
     <link rel="stylesheet" href="CSS/bootstrap.css">
     <link rel="stylesheet" href="CSS/style.css">
     
@@ -13,10 +14,7 @@
     <nav class="navbar bg-warning">
 <div class="container-fluid">
     <a class="nav-brand badge bg-primary text-wrap nav-link me-2">FLATDANGO MOVIE TICKETING SYSTEM</a>
-<form action="" class="d-flex">
-    <input type="text" class="form-control" type="text" placeholder="Search for a movie" id="search">
-    <button type="submit" class="btn btn-outline-info ms-1" id="searchBtn">SEARCH</button>
-</form>
+
 </div>
     </nav>
     
@@ -25,21 +23,21 @@
     <div id="main" class="card-img  mt-5 btn link-secondary" > 
         <div class="card mb-3" style="max-width: 600px;">
             <div class="row g-0">
-                             
+                             <!--  -->
                     <h1 id="movieTitle" class="badge bg-primary text-wrap">FLATDANGO MOVIE TITLE</h1>
                     <img id="poster" src="./images/default movie .jpg"  width="400" height="400" alt="movie-image">               
                
               </div>
 
-              <div class="col-6">
-              <div class="col-md-8 flex-column m-auto" >
+              <div class="main col-6">
+              <div class="main1 col-md-8 flex-column m-auto" >
                 <div class="card-body" style="width: 18rem">
                   <p class="card-text badge bg-primary text-wrap" id="description" place>Description</p>
                   <p class="card-text badge bg-primary text-wrap" id="showtime">Showtime</p>
                   <p class="card-text badge bg-primary text-wrap"id="availableTickets">Available Tickets</p> 
                   <p class="card-text badge bg-primary text-wrap"class="text-muted" id="runtime">Runtime</p>
                   <div class="d-grid gap-2 col-6 mx-auto">
-                    <button class="btn btn-outline-warning" id="bookTicket">Book Ticket</button>
+                   <button class=" main2 btn btn-outline-warning" id="bookTicket">Book Ticket</button>
                 </div>
                 </div>
               </div>
