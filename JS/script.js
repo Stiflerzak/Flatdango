@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }) 
               
     // The endpoint to fetch data
-    const url= "http://localhost:3000/films"
+    const url= "https://flatdango-eight.vercel.app/db.json"
     // function that does the actual fetching and convertion of data to json
                 function getFilms(){
     
