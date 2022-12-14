@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }) 
               
     // The endpoint to fetch data
-    const url= "https://stiflerzak.github.io/data/db.json/films"
+    const url= "http://localhost:3000/films"
     // function that does the actual fetching and convertion of data to json
                 function getFilms(){
     
