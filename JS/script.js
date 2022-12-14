@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     .then(res => res.json()) 
                     .then(data => {
                        
-                        data.forEach(film => {
+                        data.films.forEach(film => {
                             displayfilms(film)
                         });
                     })
