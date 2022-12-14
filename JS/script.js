@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }) 
               
     // The endpoint to fetch data
-    const url= "http://localhost:3000/films"
+    const url= "https://stiflerzak.github.io/data/db.json"
     // function that does the actual fetching and convertion of data to json
                 function getFilms(){
     
@@ -47,7 +47,10 @@ document.addEventListener("DOMContentLoaded", () => {
             let btndiv= document.querySelector('.soldout')
             btndiv.innerHTML= "<button>Sold Out</button>"
         }else{
-           const tickets_sold= leftTicket - 1
+
+           let tickets_sold= document.querySelector('#availableTickets')
+           console.log(tickets_sold);
+           tickets_sold.innerHTML
         }
     })
     } 
