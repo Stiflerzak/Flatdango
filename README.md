@@ -17,7 +17,8 @@ or use this command =>
  *json-server --watch db.json* to spin the server
 
  <h2><u>This project is hosted hence can be accessed using the link below:</u></h2>
-  - <a>https://stiflerzak.github.io/Flatdango/</a>
+    
+  <a>https://flatdango-eight.vercel.app/</a>
 
 
 ## Installation and setup
