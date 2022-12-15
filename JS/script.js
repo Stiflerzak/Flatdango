@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 function displayfilms(film){
                     const name= document.createElement('p')
                     name.innerHTML=film.title
-                    const main= document.getElementById("main")
+                    const main= document.getElementById("movielist")
                     main.append(name)
                     //Event listener listens for a click, it the calls Singlefilm function
                     name.addEventListener("click", () => {

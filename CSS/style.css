@@ -19,3 +19,11 @@ h1{
     background-color: beige;
 }
 
+.flex {
+display: flex;
+
+}
+
+#movielist{
+    margin: 18rem;
+}
